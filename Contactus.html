@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            background-color: rgb(136, 199, 255);
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+        /* flexbox have 2 major properties for alignment.
+        1. align-items: used to center /align the items in vertical direction
+        2. justify-content: used to center /align the items in horizontal direction */
+
+        li{
+            margin: 4px 10px;
+        }
+        a{
+            text-decoration: none;
+            padding:5px 10px;
+            border:2px solid black;
+        }
+        body{
+          
+            }
+        .home{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color:rgb(215, 255, 198);
+            font-size: 20px;
+            height: 100vh;
+        }
+        .nav-links{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        img{
+            width: 150px;
+            height: 90px;
+            border-radius: 100px;
+        }
+        .box{
+    padding:20px 40px;
+    border: 2px solid black;
+    background: white;
+    border-radius:10px;
+    }
+    .Submit-btn{
+        padding: 15px 30px;
+        font-size: 15px;
+        border: 2px solid black;
+        font-weight: bold;
+        background: white;
+    }
+    
+    input{
+        padding:7px 0px;
+        margin-bottom: 15px;
+        width:100%;
+        border: none;
+        border-bottom: 2px solid rgb(195, 91, 255);
+        font-size: 15px;
+    }
+    textarea{
+        width:100%;
+        border:none;
+        border-bottom: 2px solid rgb(195, 91, 255);
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .Submit-btn:hover{
+        color: rgb(255, 255, 255);
+        background:rgb(0, 0, 0);
+        border: white;
+    }
+    nav{
+        Width:100%
+    }
+    main{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, gray, rgb(0, 255, 13));
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <img src="https://tse1.mm.bing.net/th?id=OIP.-hc_DFjzzvA0kxZENy19VQHaE-&pid=Api&rs=1&c=1&qlt=95&w=159&h=106" alt="logo"> 
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="Aboutus.html">About us</a> </li>
+                <li> <a href="Contactus.html">Contact us</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+    <div class="box">
+        <h1>Have a question? <br> Contact us!</h1>
+        <form>
+            <div><input type="text" placeholder="Enter thy name"></div>
+           <div><input type="email" placeholder="Thy email"></div> 
+            <textarea name="" id="" cols="30" rows="10" placeholder="Thy Problem?"></textarea>
+            <div><input class="Submit-btn" type="submit" name="" id="" value="SEND MESSAGE"></div> 
+        </form>
+    </div>
+    </main>
+</body>
+</html>

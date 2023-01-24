@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            background-color: rgb(136, 199, 255);
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+        /* flexbox have 2 major properties for alignment.
+        1. align-items: used to center /align the items in vertical direction
+        2. justify-content: used to center /align the items in horizontal direction */
+
+        li{
+            margin: 4px 10px;
+        }
+        a{
+            text-decoration: none;
+            padding:5px 10px;
+            border:2px solid black;
+        }
+        body{
+            background: linear-gradient(rgba(0,0,0,0.7) , rgba(0, 0, 0, 0.5)), url('/treewillow.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+        .home{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color:rgb(215, 255, 198);
+            font-size: 20px;
+            height: 100vh;
+        }
+        .nav-links{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        img{
+            width: 150px;
+            height: 90px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <img src="https://tse1.mm.bing.net/th?id=OIP.-hc_DFjzzvA0kxZENy19VQHaE-&pid=Api&rs=1&c=1&qlt=95&w=159&h=106" alt="logo"> 
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="Aboutus.html">About us</a> </li>
+                <li> <a href="Contactus.html">Contact us</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="home">
+        <h1>Welcome to Treez</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            background-color: rgb(136, 199, 255);
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+        /* flexbox have 2 major properties for alignment.
+        1. align-items: used to center /align the items in vertical direction
+        2. justify-content: used to center /align the items in horizontal direction */
+
+        li{
+            margin: 4px 10px;
+        }
+        .nav-links a{
+            text-decoration: none;
+            padding:5px 10px;
+            border:2px solid black;
+        }
+        body{
+           
+            }
+
+        .nav-links{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .logo-img{
+            width: 150px;
+            height: 90px;
+            border-radius: 100px;
+        }
+        .outer_box{
+            /* background: aqua; */
+            width: 96%;
+            height: 100%;
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .center{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .box{
+            width: 300px;
+           
+            /* background: yellowgreen; */
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+        .image-box{
+            width: 100%;
+            height: 40%;
+            /* background-color: aqua; */
+
+        }
+        .description-box{
+            width: 73%;
+            height: 43%;
+            background-color: rgb(203, 255, 223);
+            padding: 40px;
+        }
+        .sunbrsthoneylocust{
+            width: 100%;
+            height: 100%;
+        }
+        .description-box h2{
+            text-align: center;
+        }
+        .btn{
+            padding: 6px;
+            background-color: green;
+            color: white;
+            border-radius: 6px;
+            border: none;
+            margin: auto;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <img src="https://tse1.mm.bing.net/th?id=OIP.-hc_DFjzzvA0kxZENy19VQHaE-&pid=Api&rs=1&c=1&qlt=95&w=159&h=106" alt="logo" class="logo-img" > 
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="Aboutus.html">About us</a> </li>
+                <li> <a href="Contactus.html">Contact us</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <section> 
+        <h1 class="center">List of trees</h1>
+        <div class="outer_box">
+            <div class="box">
+               <div class="image-box">
+                <img src="./sunburst-honey-locust-tree.jpg" alt="sunburst honey locust" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Sunburst Honey Locust</h2>
+                <p>The Sunburst honey locust is a deciduous tree, with compound leaves (multiple leaves on one stem) that turn bright yellow in autumn. These trees have a fairly open canopy, unlike the maples for example. They are "polygamodioecious" trees.</p>
+              <a href="https://en.wikipedia.org/wiki/Honey_locust"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/black oak.jpg" alt="black oak" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Black oak</h2>
+                <p>Black oak is a medium-sized tree with a wide-spreading, open crown and tall, straight trunk. Leaves are alternate, simple, with 5–7 bristle-tipped lobes, cut deep or shallow. They are 5–10 inches long, 3–8 inches wide, dark and shiny above, pale and conspicuously fuzzy underneath (the species name, velutina, means "velvety").</p>
+              <a href="https://en.wikipedia.org/wiki/Quercus_velutina"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/redmaple.jpg" alt="Red Maple" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Red maple</h2>
+                <p>The red maple is usually a medium-sized tree with a moderate growth rate. The bark is smooth and light gray on young- and intermediate-aged stems, while mature bark is dark gray and rough. Crushed twigs do not emit a rank odor as does the silver maple.</p>
+              <a href="https://en.wikipedia.org/wiki/Acer_rubrum"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/eastern white pine.jpg" alt="Eastern White Pine" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Eastern White Pine</h2>
+                <p>Eastern white pine is an evergreen conifer tree in the Pinaceae (pine) family. This pine’s origin is in the northeastern United States and Canada. It may grow 50 to 80 feet tall and 20 to 40 feet wide. Eastern white pine grows naturally in high, dry, sandy and rocky ridges and is tolerant of a wide range of soil conditions.</p>
+              <a href="https://en.wikipedia.org/wiki/Pinus_strobus"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/miraposa.jpg" alt="Miraposa" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Miraposa</h2>
+                <p>Mariposa Grove is a sequoia grove located near Wawona , California, United States, in the southernmost part of Yosemite National Park. It is the largest grove of giant sequoias in the park, with several hundred mature examples of the tree. Two of its trees are among the 30 largest giant sequoias in the world.</p>
+              <a href="https://en.wikipedia.org/wiki/Mariposa_Grove#:~:text=Mariposa%20Grove%20is%20a%20sequoia%20grove%20located%20near,the%2030%20largest%20giant%20sequoias%20in%20the%20world."> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/whitebark.jpg" alt="White Bark Pine" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> White Bark Pine</h2>
+                <p>The whitebark pine is typically the highest-elevation pine tree found in these mountain ranges and often marks the tree line. Thus, it is often found as krummholz, trees growing close to the ground that have been dwarfed by exposure. In more favorable conditions, the trees may grow to 29 meters (95 ft) in height.</p>
+              <a href="https://en.wikipedia.org/wiki/Pinus_albicaulis"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/white ash.jpg" alt="White Ash" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> White Ash</h2>
+                <p>A large forest tree, to 100 feet tall and a trunk to 3 feet in diameter, with a tall trunk and a relatively short, oval crown.</p>
+              <a href="https://en.wikipedia.org/wiki/Fraxinus_americana"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/Anacua.jpg" alt="Anacua" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Anacua</h2>
+                <p>A medium-sized tree to 50 feet tall and a trunk to 2 feet in diameter, with a dense, round crown of dark green foliage.</p>
+              <a href="https://en.wikipedia.org/wiki/Ehretia_anacua"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/Wright Acacia.jpg" alt="Wright Acacia" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Wright Acacia</h2>
+                <p>This small tree rarely reaches a height of 30 feet or a trunk up to 12" in diameter. The crown consists of numerous spreading branches and branchlets.</p>
+              <a href="https://en.wikipedia.org/wiki/Senegalia"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/Anacahuita.jpg" alt="Anacahuita" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Anacahuita</h2>
+                <p>A small tree with a curving trunk, to 20 feet tall and a trunk to 12" in diameter, with a low, rounded crown.</p>
+              <a href="https://en.wikipedia.org/wiki/Cordia_boissieri"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/Sweetbay Magnolia.jpg" alt="Sweetbay Magnolia" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2> Sweetbay Magnolia</h2>
+                <p>A tree 60 to 80 feet tall, usually smaller, and a trunk to 2 feet in diameter, with an oval crown of glossy, green foliage.</p>
+              <a href="https://en.wikipedia.org/wiki/Magnolia_virginiana"> <button class="btn">Explore More</button> </a> 
+               </div>
+            </div>
+            <div class="box">
+               <div class="image-box">
+                <img src="/Project/Common Hackberry.jpg" alt="Common Hackberry" class="sunbrsthoneylocust">
+               </div>
+               <div class="description-box">
+                <h2>Common Hackberry</h2>
+                <p>A medium to large tree, becoming 60 to 100 feet or more tall and 2 feet or more in diameter, with a round or oval crown and limbs that often end in slender, drooping branches.</p>
+              <a href="https://en.wikipedia.org/wiki/Celtis_occidentalis"> <button class="btn">Explore More</button> </a> 
+               </div>
+            <div class="box">
+               <div class="image-box">
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
