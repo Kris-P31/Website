@@ -1,7 +1,7 @@
 # TREEZ - Collection of data about trees.
 
 
-!['Pictire of website'](./About%20us%20-%20Google%20Chrome%202_6_2023%207_12_26%20PM.png)
+!['Pictire of website'](./images/About%20us%20-%20Google%20Chrome%202_6_2023%207_12_26%20PM.png)
 
 
 
